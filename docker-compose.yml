@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    container_name: sqlserver.db
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+      - '1433:1433'
+    volumes:
+      - sqlserver-data:/var/lib/sqlserver/data
+    networks:
+      - tedu_ecommerce
+    restart: always
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Admin@123
+networks:
+  tedu_ecommerce:
+    driver: bridge
+volumes:
+  sqlserver-data:
