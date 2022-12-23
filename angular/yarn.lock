@@ -3303,6 +3303,11 @@ debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
+decimal.js@~4.0.1:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/decimal.js/-/decimal.js-4.0.4.tgz#af3249465e133988c30750f77eaaf44505caa5e3"
+  integrity sha512-RAXuxUu5ylfK3qKjeLfYMsCbTOJbNzDHzGXduBG9kS+R3hUq2z0aPA4X0DyqZXr4lLj6T3YwU9ih/xXaacqQnA==
+
 decode-uri-component@^0.2.0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
@@ -5271,6 +5276,13 @@ make-fetch-happen@^10.0.3, make-fetch-happen@^10.0.6:
     socks-proxy-agent "^7.0.0"
     ssri "^9.0.0"
 
+mathjs@^1.7.0:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/mathjs/-/mathjs-1.7.1.tgz#84a9733d025fded4405111a065a98cb11e2102c1"
+  integrity sha512-UH1lgHOUl5g7hpEKzXOWRG5Y8Aax0EtSIPAqvJc309/8WRbLa6NG3QbozxJKBq6IaycelEc+5a7m/LDb0lRYQQ==
+  dependencies:
+    decimal.js "~4.0.1"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -6474,6 +6486,30 @@ pretty-bytes@^5.3.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
   integrity sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==
+
+primeflex@^3.2.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-3.3.0.tgz#6c755230ddf30c8fffed9f817efed28d5fe2bdff"
+  integrity sha512-4hvyIO7lERN5bnyURn67Qpozghins8Jq/GSXO6tymc3oa2ADHWuiYBti8ZptPwHu+uD/HTEisS26NEmeIGfPZQ==
+
+primeicons@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-6.0.1.tgz#431fa7c79825934eefd62087d8e1faa6a9e376ad"
+  integrity sha512-KDeO94CbWI4pKsPnYpA1FPjo79EsY9I+M8ywoPBSf9XMXoe/0crjbUK7jcQEDHuc0ZMRIZsxH3TYLv4TUtHmAA==
+
+primejs@1.9.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/primejs/-/primejs-0.1.0.tgz#8ae979c6373e390de6e41f61633dd50ea8e94959"
+  integrity sha512-8OPpwwL46nGJrjpRxpN7uheVsfphIQnZHpHlQ+8ilCSxmIkJidzR2MycEl80nYhcxGGJ+EEB3sYX3Swwbbqppg==
+  dependencies:
+    mathjs "^1.7.0"
+
+primeng@14.2.2:
+  version "14.2.2"
+  resolved "https://registry.yarnpkg.com/primeng/-/primeng-14.2.2.tgz#08616bd3f63bc126c1aebcbac727705073af7192"
+  integrity sha512-CV7dWwpBYqMgKliryJ6+CJZgdawl04V1Cp5mQmziEedJVhMGPg/QwU2Fi0v7AS9i1uXQRI9c420BDn+yZ+GrDQ==
+  dependencies:
+    tslib "^2.3.0"
 
 proc-log@^2.0.0, proc-log@^2.0.1:
   version "2.0.1"
